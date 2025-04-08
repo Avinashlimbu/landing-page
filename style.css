@@ -122,3 +122,19 @@ blockquote {
     color: #E5E7EB;
     padding: 20px;
 }
+
+/* Bottom Container CSS */
+
+.bottom-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.bottom-box {
+    border: none;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    display: flex;
+}
