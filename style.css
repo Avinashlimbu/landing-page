@@ -111,3 +111,14 @@ blockquote {
     text-align: right;
     margin: 0 auto;
 }
+
+
+/* Footer Section CSS */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 20px;
+}
