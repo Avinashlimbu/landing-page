@@ -83,7 +83,7 @@ a {
     height: 300px;
 }
 
-button {
+.top-button {
     background-color: #3882F6;
     color: white;
     padding: 8px 18px;
@@ -137,4 +137,15 @@ blockquote {
     background-color: #3882F6;
     color: #E5E7EB;
     display: flex;
+    border-radius: 8px;
+    gap: 20px;
+    padding: 20px;
+}
+
+.bottom-button {
+    color: white;
+    background-color: #3882F6;
+    padding: 8px 18px;
+    border-radius: 8px;
+    border: solid;
 }
