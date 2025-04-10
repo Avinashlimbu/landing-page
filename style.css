@@ -110,7 +110,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px 200px;
+    padding: 5px 350px;
 }
 
 blockquote {
@@ -152,9 +152,12 @@ blockquote {
     background-color: #3882F6;
     color: #E5E7EB;
     display: flex;
+    justify-content: space-around;
     border-radius: 8px;
     gap: 20px;
     padding: 20px;
+    width: 700px;
+    align-items: center;
 }
 
 .bottom-button {
@@ -163,6 +166,14 @@ blockquote {
     padding: 8px 18px;
     border-radius: 8px;
     border: solid;
+}
+
+.bottom-para {
+    font-weight: 900;
+}
+
+.bottom-para .break {
+    font-weight: 200;
 }
 
 /*wrapper */
