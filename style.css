@@ -98,7 +98,6 @@ a {
 .quote {
     background-color: #E5E7EB;
     height: 300px;
-    text-align:left;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,11 +111,10 @@ blockquote {
     color: #1F2937;
 }
 
-.quote-para {
+.quote-sign {
     font-size: 18px;
     text-align: right;
     margin: 0 auto;
-    display: flex;
 }
 
 
