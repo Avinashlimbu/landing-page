@@ -1,3 +1,5 @@
+/*Universal CSS*/
+
 body {
     font-family: 'Roboto';
     display: flex;
@@ -5,14 +7,24 @@ body {
     margin: 0 auto;
 }
 
-.hero {
-    background-color: #1F2937;
-    padding: 5px 200px;
-}
-
 .secondary-text{
     font-size: 18px;
     color: #E5E7EB;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+/*header section CSS*/
+.hero {
+    background-color: #1F2937;
+    padding: 5px 200px;
 }
 
 .logo-text {
@@ -24,15 +36,6 @@ body {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
-}
-
-ul{
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-    color: #E5E7EB;
 }
 
 .header, .left-header, .right-header {
@@ -55,6 +58,8 @@ a {
     width: 400px;
 }
 
+/*mid-section with Cards CSS */
+
 .mid-section {
     height: 380px;
 }
@@ -72,9 +77,6 @@ a {
     margin-bottom: 20px;
     padding: 5px 200px;
 }
-
-
-
 
 .card {
     border: solid 2px;
@@ -114,7 +116,8 @@ a {
     justify-content: center;
     align-items: center;
     padding: 5px 350px;
-    margin: 20px 0px
+    margin: 20px 0px;
+    height: 350px;
 }
 
 blockquote {
@@ -129,7 +132,6 @@ blockquote {
     text-align: right;
     margin: 0 auto;
 }
-
 
 /* Footer Section CSS */
 
