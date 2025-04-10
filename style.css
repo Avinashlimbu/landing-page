@@ -38,12 +38,17 @@ a {
     font-weight: 900;
 }
 
-.header, .left-header, .right-header {
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-header, .right-header {
     display: flex;
     gap: 20px;
     align-items: center;
-    justify-content: space-between;
-    padding: 0;
+    padding: 0px;
 }
 
 .top-container {
@@ -180,10 +185,4 @@ blockquote {
 
 .bottom-para .break {
     font-weight: 200;
-}
-
-/*wrapper */
-.wrapper {
-    display: flex;
-    flex-direction: column;
 }
