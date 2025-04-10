@@ -51,6 +51,10 @@ a {
     gap: 50px;
 }
 
+.top-left-container {
+    width: 400px;
+}
+
 .mid-section {
     height: 380px;
 }
