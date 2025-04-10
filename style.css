@@ -65,11 +65,12 @@ a {
 
 
 .card {
-    border: solid;
+    border: solid 2px;
     border-color: #3882F6;
-    border-radius: 2px;
+    border-radius: 8px;
     width: 120px;
     height: 120px;
+    margin-bottom: 20px;
 }
 
 .info {
