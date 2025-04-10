@@ -110,11 +110,11 @@ a {
 
 .quote {
     background-color: #E5E7EB;
-    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 5px 350px;
+    margin: 20px 0px
 }
 
 blockquote {
